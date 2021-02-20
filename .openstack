@@ -1,0 +1,4 @@
+export OS_TENANT_NAME=io5_project
+export OS_USERNAME=s341467
+export OS_PASSWORD='engine step raised'
+export OS_AUTH_URL="https://cloud.cs.hioa.no:5000/v2.0/"

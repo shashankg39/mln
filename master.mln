@@ -1,0 +1,14 @@
+global {
+    project master
+}
+host second {
+    openstack {
+          image Ubuntu16.04
+          flavor m1.medium
+          keypair shanki_key
+}
+ network eth0 {
+      net netsys_net
+      address dhcp
+    }
+}
