@@ -5,7 +5,7 @@ host second {
     openstack {
           image Ubuntu16.04
           flavor m1.medium
-          keypair sammit_key
+          keypair shanki_key
 }
  network eth0 {
       net netsys_net
